@@ -15,5 +15,12 @@ public class Calculator {
         System.out.println(sixDivTwo);
         System.out.println(fiveMinusTwo);
         System.out.println(fourTimeTwo);
+        /* 3.1. Переназначение переменной [#232354] */
+        int size = 10;
+        System.out.println(size);
+        size = 100;
+        System.out.println(size);
+        size = size - 5;
+        System.out.println(size);
     }
 }
