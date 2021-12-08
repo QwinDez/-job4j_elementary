@@ -7,11 +7,11 @@ public class ConverterTest {
 
     @Test
     public void whenConvert140RblThen2Euro() {
-        float in = 140;                             // Входящие данные
-        float expected = 2;                         // Ожидаемые данные
-        float out = Converter.rubleTEuro(in);       // Результат вычисления
-        float eps = 0.0001f;                        // Точность сравнения
-        Assert.assertEquals(expected, out, eps);    // Метод сравнение данных
+        float in = 140;
+        float expected = 2;
+        float out = Converter.rubleTEuro(in);
+        float eps = 0.0001f;
+        Assert.assertEquals(expected, out, eps);
     }
 
     @Test
