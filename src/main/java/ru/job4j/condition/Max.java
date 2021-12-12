@@ -11,6 +11,8 @@ public class Max {
     public static void main(String[] args) {
         int result1 = Max.max(1, 2);
         System.out.println(result1);
+        result1 = Max.max(2, 1);
+        System.out.println(result1);
         result1 = Max.max(5, 5);
         System.out.println(result1);
     }
