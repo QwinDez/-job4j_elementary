@@ -4,6 +4,6 @@ public class User {
 
     public static void convert() {
         String name = "Denis";
-        String textMessage = "Hello World!!!";
+        String textMessage = "Hello World!";
     }
 }
