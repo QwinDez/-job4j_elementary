@@ -14,19 +14,19 @@ public class ThreeMax {
     }
 
     public static void main(String[] args) {
-        int result1 = ThreeMax.max(10, 5, 1);
-        System.out.println(result1);
-        result1 = ThreeMax.max(10, 50, 1);
-        System.out.println(result1);
-        result1 = ThreeMax.max(1, 5, 100);
-        System.out.println(result1);
-        result1 = ThreeMax.max(1, 1, 1);
-        System.out.println(result1);
-        result1 = ThreeMax.max(10, 10, 1);
-        System.out.println(result1);
-        result1 = ThreeMax.max(100, 1, 100);
-        System.out.println(result1);
-        result1 = ThreeMax.max(1, 100, 100);
-        System.out.println(result1);
+        int result = ThreeMax.max(10, 5, 1);
+        System.out.println(result);
+        result = ThreeMax.max(10, 50, 1);
+        System.out.println(result);
+        result = ThreeMax.max(1, 5, 100);
+        System.out.println(result);
+        result = ThreeMax.max(1, 1, 1);
+        System.out.println(result);
+        result = ThreeMax.max(10, 10, 1);
+        System.out.println(result);
+        result = ThreeMax.max(100, 1, 100);
+        System.out.println(result);
+        result = ThreeMax.max(1, 100, 100);
+        System.out.println(result);
     }
 }
