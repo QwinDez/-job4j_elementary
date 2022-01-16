@@ -1,5 +1,8 @@
 package ru.job4j.condition;
 
+import static org.hamcrest.Matchers.closeTo;
+import static org.junit.Assert.assertThat;
+
 import org.junit.Assert;
 import org.junit.Test;
 
@@ -47,5 +50,14 @@ public class PointTest {
         int y2 = 2;
         double out = Point.distance(x1, y1, x2, y2);
         Assert.assertEquals(expected, out, 0.01);
+    }
+
+    @Test
+    public void when123to456then519() {
+        Point a = new Point(1, 2, 3);
+        Point b = new Point(4, 5, 6);
+        double result = a.distance3d(b);
+        assertThat(result, closeTo(5.19, 0.01));
+
     }
 }
