@@ -60,4 +60,12 @@ public class PointTest {
         assertThat(result, closeTo(5.19, 0.01));
 
     }
+
+    @Test
+    public void when12to34then283() {
+        Point a = new Point(1, 2);
+        Point b = new Point(3, 4);
+        double result = a.distance(b);
+        assertThat(result, closeTo(2.83, 0.01));
+    }
 }
