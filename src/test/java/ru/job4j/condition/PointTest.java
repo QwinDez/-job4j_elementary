@@ -53,16 +53,15 @@ public class PointTest {
     }
 
     @Test
-    public void when123to456then519() {
+    public void when123to456then5dot19() {
         Point a = new Point(1, 2, 3);
         Point b = new Point(4, 5, 6);
         double result = a.distance3d(b);
         assertThat(result, closeTo(5.19, 0.01));
-
     }
 
     @Test
-    public void when12to34then283() {
+    public void when12to34then2dot83() {
         Point a = new Point(1, 2);
         Point b = new Point(3, 4);
         double result = a.distance(b);
